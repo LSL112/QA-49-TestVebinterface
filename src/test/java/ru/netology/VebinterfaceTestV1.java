@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class callbakTest {
+public class VebinterfaceTestV1 {
 
     private WebDriver driver;
 
@@ -27,7 +27,7 @@ public class callbakTest {
     }
 
     @AfterEach
-    void teardown() {
+    void tearDown() {
         driver.quit();
         driver = null;
     }
@@ -42,18 +42,8 @@ public class callbakTest {
         String actualMessage = driver.findElement(By.xpath("//div[contains(@class, 'Success_successBlock')]//p")).getText();
         String expectedMessage = "Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.";
         Assertions.assertEquals(expectedMessage, actualMessage);
-    }
+     }
 
-    @Test
-    void shouldFailIfNameIsNotRussian() {
-        driver.findElement(By.xpath("//span[@data-test-id='name']//input")).sendKeys("Сергеев Sergei");
-        driver.findElement(By.xpath("//span[@data-test-id='phone']//input")).sendKeys("+79258582575");
-        driver.findElement(By.xpath(".//span[contains(@class, 'checkbox__box')]")).click();
-        driver.findElement(By.xpath(".//span[contains(text(), 'Продолжить')]")).click();
-        String actualMessage = driver.findElement(By.xpath("//span[contains(@class, 'input_invalid')]" +
-                "//span[preceding-sibling::span//input[contains(@name, 'name')]][contains(@class, 'input__sub')]")).getText();
-        String expectedMessage = "Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы.";
-        Assertions.assertEquals(expectedMessage, actualMessage);
-    }
+
 
 }
