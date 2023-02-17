@@ -40,7 +40,7 @@ public class vebinterfaceTestV1 {
         driver.findElement(By.xpath(".//span[contains(@class, 'checkbox__box')]")).click();
         driver.findElement(By.xpath(".//span[contains(text(), 'Продолжить')]")).click();
         String actualMessage = driver.findElement(By.xpath("//div[contains(@class, 'Success_successBlock')]//p")).getText();
-        String expectedMessage = "Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.";
+        String expectedMessage = "  Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.";
         Assertions.assertEquals(expectedMessage, actualMessage);
      }
 
