@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2de31c30-300b-4ebb-83fb-6bbca3d8c707" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/drivers/win/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/callbakTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
