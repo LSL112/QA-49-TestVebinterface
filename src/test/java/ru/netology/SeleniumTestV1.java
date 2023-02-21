@@ -38,7 +38,7 @@ public class SeleniumTestV1 {
         driver.findElement(By.xpath("//span[@data-test-id='phone']//input")).sendKeys("+79998887723");
         driver.findElement(By.xpath(".//span[contains(@class, 'checkbox__box')]")).click();
         driver.findElement(By.xpath(".//span[contains(text(), 'Продолжить')]")).click();
-        String actualMessage = driver.findElement(By.xpath("//p[contains(@data-test-id, 'order-success')]//span")).getText().trim();
+        String actualMessage = driver.findElement(By.xpath("//p[contains(@data-test-id, 'order-success')]")).getText().trim();
         String expectedMessage = "Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.";
         Assertions.assertEquals(expectedMessage, actualMessage);
      }
