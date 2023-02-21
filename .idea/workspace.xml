@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2de31c30-300b-4ebb-83fb-6bbca3d8c707" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Src/тест/java/RU/нетология/vebinterfaceTestV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Src/тест/java/RU/нетология/vebinterfaceTestV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumTestV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumTestV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/vebinterfaceTestV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/vebinterfaceTestV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumTestV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/SeleniumTestV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +84,8 @@
       <recent name="C:\Users\Sergei\IdeaProjects\Vebinterface\artifacts" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SeleniumTestV1.shouldSetPersonalInfoTest">
-    <configuration name="SeleniumTestV1.shouldSetPersonalInfoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SeleniumTestV2.shouldFailIfCheckboxIsEmpty">
+    <configuration name="SeleniumTestV2.shouldFailIfCheckboxIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -99,7 +98,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.SeleniumTestV1.shouldSetPersonalInfoTest&quot;" />
+            <option value="&quot;ru.netology.SeleniumTestV2.shouldFailIfCheckboxIsEmpty&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SeleniumTestV2.shouldFailIfNameInputIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.SeleniumTestV2.shouldFailIfNameInputIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -132,7 +154,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="vebinterfaceTestV1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumTestV2.shouldFailIfPhoneInputIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -145,7 +167,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.vebinterfaceTestV1&quot;" />
+            <option value="&quot;ru.netology.SeleniumTestV2.shouldFailIfPhoneInputIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,7 +177,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="vebinterfaceTestV1.shouldSetPersonalInfoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SeleniumTestV2.shouldFailIfWrongNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -168,30 +190,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.vebinterfaceTestV1.shouldSetPersonalInfoTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="vebinterfaceTestV2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.netology.vebinterfaceTestV2&quot;" />
+            <option value="&quot;ru.netology.SeleniumTestV2.shouldFailIfWrongNumber&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -203,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SeleniumTestV1.shouldSetPersonalInfoTest" />
+        <item itemvalue="Gradle.SeleniumTestV2.shouldFailIfCheckboxIsEmpty" />
+        <item itemvalue="Gradle.SeleniumTestV2.shouldFailIfPhoneInputIsEmpty" />
+        <item itemvalue="Gradle.SeleniumTestV2.shouldFailIfNameInputIsEmpty" />
+        <item itemvalue="Gradle.SeleniumTestV2.shouldFailIfWrongNumber" />
         <item itemvalue="Gradle.SeleniumTestV2.shouldFailIfNameIsNotRussian" />
-        <item itemvalue="Gradle.vebinterfaceTestV2" />
-        <item itemvalue="Gradle.vebinterfaceTestV1" />
-        <item itemvalue="Gradle.vebinterfaceTestV1.shouldSetPersonalInfoTest" />
       </list>
     </recent_temporary>
   </component>
